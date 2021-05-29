@@ -1,0 +1,23 @@
+{
+  "name": "estudo-tdd",
+  "jest":{
+    "verbose":true
+  },
+  "version": "1.0.0",
+  "description": "Estudo de bibliotecas de Teste.",
+  "main": "index.js",
+  "author": "Gabriel Gomes",
+  "license": "MIT",
+  "scripts": {
+    "jest-test": "jest test-jest",
+    "mocha-test": "mocha test-mocha",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "jest": "^27.0.1",
+    "mocha": "^8.4.0",
+    "nock": "^13.0.11"
+  }
+}
